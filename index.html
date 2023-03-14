@@ -1,18 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    html,
+body {
+
+
+}
+
+
+h1 {
+
+
+
+
+}
+h2 {
+    margin: 0;
+    padding: 5px;
+    background-color:beige;
+    text-align:center;
+    color: darkslateblue;
+}
+
+service {
+    display: inline-block;
+    text-align: center;
+}
+p,
+li {
+    color: green;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+nav {
+    width: 100%;
+
+}
+
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: 3px solid black;
+    width: 100%;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}    
+
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>H-Thai-ML</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
     <!-- HOME PAGE -->
+    <div class="my-style"></div>
+    <div class="my-style">
+        <h3>Nalini Krishan: Loves <em>food</em> in Los Angeles!</h3>
+    </div>
+    
     <!-- TODO: Navbar here -->
+
+    <nav>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <!-- TODO: Banner Image here-->
-    <main>
-        <h1>H-Thai-ML</h1>
+    <img src="./assets/images/banner.png" alt="banner image">
+        <h1>H-Thai-ML - Nalini</h1>
         <!-- TODO: Home page code here-->
+        <main>
+            <h2>We'll forever heart your meal times!</h2>
+            <div class="service">
+                <h3>Dine In</h3>
+            </div>
+            <div class="service">
+                <h3>Take Out</h3>
+            </div>
+            <div class="service">
+                <h3>Delivery</h3>
+            </div>
+            <img src="./assets/images/table-in-restaurant.jpg" alt="banner image">
     </main>
 </body>
 </html>

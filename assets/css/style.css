@@ -1,17 +1,28 @@
 html,
 body {
+
+
+}
+
+
+h1 {
+
+
+
+
+}
+h2 {
     margin: 0;
-    padding: 0;
-    background-color: beige;
+    padding: 5px;
+    background-color:beige;
+    text-align:center;
+    color: darkslateblue;
+}
+
+service {
+    display: inline-block;
     text-align: center;
 }
-
-h1,
-h2 {
-    color: darkred;
-}
-
-h3, 
 p,
 li {
     color: green;
@@ -32,14 +43,20 @@ nav {
     padding: 10px;
 }
 
+
 nav ul {
     list-style-type: none;
     text-align: center;
+
 }
+
 
 nav li {
     display: inline;
+
 }
+
+
 
 nav a {
     text-decoration: none;
@@ -49,11 +66,21 @@ nav a {
 }
 
 nav a:hover {
-    color: darkred;
+    color: white;
 }
 
-#banner {
+
+nav {
     width: 100%;
+
+}
+
+
+#banner {
+    width: 50
+    
+    
+    %;
     height: auto;
     background-color: white;
 }
